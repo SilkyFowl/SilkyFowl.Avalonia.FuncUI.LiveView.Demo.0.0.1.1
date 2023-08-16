@@ -1,0 +1,12 @@
+{
+    "[fsharp]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultFormatter": "Ionide.Ionide-fsharp",
+        "editor.formatOnSave": true
+    },
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "FSharp.enableAnalyzers": true,
+    "FSharp.analyzersPath": [
+        "packages/analyzers"
+    ],
+}

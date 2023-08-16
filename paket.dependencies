@@ -1,0 +1,14 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+
+nuget FSharp.Core content: none
+nuget Avalonia.FuncUI 1.0.1
+nuget Avalonia.Desktop 11.0.3
+nuget Avalonia.Themes.Fluent 11.0.3
+nuget SilkyFowl.Avalonia.FuncUI.LiveView 0.0.1.1
+
+group Analyzers
+    source https://api.nuget.org/v3/index.json
+    storage: storage
+    nuget SilkyFowl.Avalonia.FuncUI.LiveView.Analyzer 0.0.1.1
