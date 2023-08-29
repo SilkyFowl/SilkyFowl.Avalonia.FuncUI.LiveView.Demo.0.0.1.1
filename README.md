@@ -1,15 +1,15 @@
-# SilkyFowl.Avalonia.FuncUI.LiveView.Demo
+# SilkyFowl.Avalonia.FuncUI.LiveView.Demo.Paket
 
 Demo of SilkyFowl.Avalonia.FuncUI.LiveView by vscode.
 
 ## Usage
 
 ```sh
-gh repo clone SilkyFowl/SilkyFowl.Avalonia.FuncUI.LiveView.Demo
+gh repo clone SilkyFowl/SilkyFowl.Avalonia.FuncUI.LiveView.Demo.Paket
 # or
-# git clone https://github.com/SilkyFowl/SilkyFowl.Avalonia.FuncUI.LiveView.Demo.git
+# git clone https://github.com/SilkyFowl/SilkyFowl.Avalonia.FuncUI.LiveView.Demo.Paket.git
 
-cd SilkyFowl.Avalonia.FuncUI.LiveView.Demo
+cd SilkyFowl.Avalonia.FuncUI.LiveView.Demo.Paket
 
 dotnet tool restore
 dotnet paket install
