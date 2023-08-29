@@ -1,18 +1,19 @@
-# SilkyFowl.Avalonia.FuncUI.LiveView.Demo.0.0.1.1
+# SilkyFowl.Avalonia.FuncUI.LiveView.Demo
 
 Demo of SilkyFowl.Avalonia.FuncUI.LiveView by vscode.
 
 ## Usage
 
 ```sh
-gh repo clone SilkyFowl/SilkyFowl.Avalonia.FuncUI.LiveView.Demo.0.0.1.1
+gh repo clone SilkyFowl/SilkyFowl.Avalonia.FuncUI.LiveView.Demo
 # or
-# git clone https://github.com/SilkyFowl/SilkyFowl.Avalonia.FuncUI.LiveView.Demo.0.0.1.1.git
+# git clone https://github.com/SilkyFowl/SilkyFowl.Avalonia.FuncUI.LiveView.Demo.git
 
-cd SilkyFowl.Avalonia.FuncUI.LiveView.Demo.0.0.1.1
+cd SilkyFowl.Avalonia.FuncUI.LiveView.Demo
 
 dotnet tool restore
 dotnet paket install
+dotnet tool install SilkyFowl.Avalonia.FuncUI.LiveView.Analyzer --version 0.0.3 --tool-path analyzers
 
 code .
 ```
